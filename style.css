@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #f7f7f7, #cfd8dc); /* Ubah warna latar belakang sesuai preferensi Anda */
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang semi-transparan untuk kontainer */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  #container div {
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  #container div:hover {
+    border-color: #3498db;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+  }
+
+  #scores {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .game-title {
+    font-size: 36px;
+    font-family: 'Helvetica Neue', sans-serif; /* Change this to your preferred elegant font */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .game-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Menambahkan flex-wrap untuk mengatur wrap jika layar terlalu kecil */
+  }
+  
+  .score-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .score-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .score-value {
+    font-size: 20px;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .game-result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #results {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #playAgain {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #playAgain:hover {
+    background-color: #2980b9;
+  }
+  

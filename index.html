@@ -4,10 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>GBK</title>
-  <style>
-  </style>
+    <link rel="stylesheet" href="style.css">
   </head>
 <body>
+  <div class="game-title">Gunting Batu Kertas</div>
+  <div class="game-description">
+    Selamat datang di permainan Gunting Batu Kertas. Pilihlah simbol Anda dan lihat siapa yang menang!
+  </div>
+  <div id="container"></div>
+  <div id="scores">
+    <div class="score-box">
+      <span class="score-label">Skor Anda:</span>
+      <div class="score-value" id="skorAnda">0</div>
+    </div>
+    <div class="score-box">
+      <span class="score-label">Skor Admin:</span>
+      <div class="score-value" id="skorAdmin">0</div>
+    </div>
+  </div>
+  <div id="results" class="game-result"></div>
+  <button id="playAgain">Play Again</button>
+  <div id="notification"></div>
   <script src="GBK.js"> </script>
 </body>
 </html>
